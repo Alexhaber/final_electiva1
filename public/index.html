@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación Web Simple</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }      
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .content{
+            margin-top: 60px;
+            justify-self: center;
+        }
+
+    </style>
+</head>
+    <body>
+        <header>
+            <h1>Bienvenido a mi aplicación web</h1>
+        </header>
+        <div class="content">
+            <button id="clickButton">Haz clic aquí</button>
+            <p id="message"></p>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
